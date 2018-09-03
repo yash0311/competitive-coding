@@ -5,7 +5,7 @@ using namespace std;
  
 ll n,m;
 std::vector<pair<ll, pair<ll,ll> > > v;
-const ll MAX=2e+5;
+const ll MAX=2e5+5;
  
 ll id[MAX],id1[MAX],id2[MAX],count_span;
  
@@ -41,7 +41,8 @@ ll kruskal(ll c1,ll c2){
 	}
 	return min_cost;
 }
- 
+
+
 int main(){
  
 	cin>>n>>m;
