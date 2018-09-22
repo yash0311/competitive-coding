@@ -21,7 +21,7 @@ int main()
 	
 	mp[0]=1;
 	ll o_cnt=0,e_cnt=0;
-	cout<<"yes\n";
+	//cout<<"yes\n";
 	for(ll i=0;i<n;i++){
 		if(arr[i] & 1) o_cnt++;
 		else e_cnt++;
